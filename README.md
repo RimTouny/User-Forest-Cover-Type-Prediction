@@ -4,6 +4,7 @@ Predicting Colorado forest cover types using diverse ML models for classificatio
 
   - Required libraries: scikit-learn, pandas, matplotlib.
   - Execute cells in a Jupyter Notebook environment.
+  - The uploaded code has been executed and tested successfully within the [Google Colab](https://colab.google/) environment.
 
 ## Multi-class classification problem
 Task is to classify the Forest Cover Type Prediction dataset into seven types: Spruce/Fir, Lodgepole Pine, Ponderosa Pine, Cottonwood/Willow, Aspen, Douglas-fir, and Krummholz.
