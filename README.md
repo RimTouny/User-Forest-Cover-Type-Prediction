@@ -44,29 +44,25 @@ Task is to classify the Forest Cover Type Prediction dataset into seven types: S
        ![merge_from_ofoct (6)](https://github.com/RimTouny/User-Forest-Cover-Type-Prediction/assets/48333870/d98a012b-1630-440a-8dab-01188b2ab2c5)
 
      - Champion Model
-       ![image](https://github.com/RimTouny/User-Forest-Cover-Type-Prediction/assets/48333870/98d93b8a-4eb5-4848-86df-eb6810ea18b2)
+        ![merge_from_ofoct](https://github.com/RimTouny/User-Forest-Cover-Type-Prediction/assets/48333870/19dab626-e43c-4744-a773-0e403320d6ab)
 
 
 7. **First Improvement Strategy: Feature Selection:**
-     - Implement feature selection methods, including filter and wrapper approaches.
-     - Assess the performance of selected ML models based on the number of features versus accuracy.
+     - Implement feature selection methods, including
+        + Filter Selection Methods (Information Gain/Mutual Information , Feature Selection , Variance Threshold ,Chi-Square)
+        + Wrapper Selection Methods (Forward Feature Elimination- Backward  Feature Elimination- Recursive Feature Elimination
+          
      - Proceed with the best-performing feature subset and ML model for subsequent stages.
-       
+       + Champion Model in Filter Selection: Information Gain
+         ![image](https://github.com/RimTouny/User-Forest-Cover-Type-Prediction/assets/48333870/96dc5441-a7a1-4546-a855-d03a938da89d)
+
+       + Champion Model in Wrapper Selection: Recursive
+         ![image](https://github.com/RimTouny/User-Forest-Cover-Type-Prediction/assets/48333870/c4d48228-eb99-4ec3-bebc-490180954553)
+
+
 8. **Adding More Machine Learning Models:**
      - Implement advanced models (Random Forest, ensemble techniques) to enhance performance.
+       ![image](https://github.com/RimTouny/User-Forest-Cover-Type-Prediction/assets/48333870/f1aed811-e71b-4655-8132-750889a8b076)
+
      - Compare new technique performance with the initial improvement through confusion matrices.
-
-9. **Supervised & Unsupervised Combination via PKI:**
-     - Use the best supervised model from a previous stage to determine optimal cluster numbers for improvement.
-     - Implement the PKI strategy with SOFM and DNN models, aiming for better results.
-
-10. **Applying Parameter Fine-Tuning:**
-     - Experiment with different structures for the DNN PKI model to optimize performance.
-     - Plot parameter tuning performance alongside the best accuracy achieved so far.
-
-11. **Writing the Conclusion:**
-     - Summarize results obtained from each improvement strategy.
-     - Provide insights, experiences, and knowledge gained from the analysis in the conclusion section.
-
-
-     
+       ![image](https://github.com/RimTouny/User-Forest-Cover-Type-Prediction/assets/48333870/fe32c7d5-e34c-4227-93a8-27946e1f6da7)     
