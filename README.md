@@ -1,4 +1,4 @@
-# User-Forest-Cover-Type-Prediction
+# **User Forest Cover Type Prediction**
 Predicting Colorado forest cover types using diverse ML models for classification. Baseline creation, feature selection, comparison ,and tuning optimize accuracy on [Forest Cover Type Prediction](https://www.kaggle.com/competitions/forest-cover-type-prediction/data) in this University of Ottawa Master's Machine Learning course final project (2023).
        ![image](https://github.com/RimTouny/User-Forest-Cover-Type-Prediction/assets/48333870/4bfdb070-623f-40e9-add0-5f2739cd1565)
 
