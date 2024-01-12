@@ -29,8 +29,9 @@ Task is to classify the Forest Cover Type Prediction dataset into seven types: S
 
 3. **General Flowchart:**
      - Develop a detailed flowchart illustrating each step of the project's implementation.
-         ![Picture10](https://github.com/RimTouny/User-Forest-Cover-Type-Prediction/assets/48333870/0c012e10-c060-4c74-a11c-f5effb41e0ac)
-
+       <p align="center">
+         <img src="https://github.com/RimTouny/User-Forest-Cover-Type-Prediction/assets/48333870/0c012e10-c060-4c74-a11c-f5effb41e0ac" />
+       </p>
 
 4. **Visualize Training and Test Sets:**
      - Generate TSNE plots separately for the training and test sets to understand the problem's complexity.
