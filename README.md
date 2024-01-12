@@ -56,11 +56,27 @@ Task is to classify the Forest Cover Type Prediction dataset into seven types: S
           
      - Proceed with the best-performing feature subset and ML model for subsequent stages.
        + Champion Model in Filter Selection: Information Gain
-         ![image](https://github.com/RimTouny/User-Forest-Cover-Type-Prediction/assets/48333870/96dc5441-a7a1-4546-a855-d03a938da89d)
+         ```python
+            Maximum of Feature Selection-K-Nearest Neighbors: 73.96721311475409
+            Best number of n_components Feature Selection-K-Nearest Neighbors: 12
 
+            Maximum of Feature Selection-Decision Tree Classifier: 76.65573770491804
+            Best number of n_components Feature Selection-Decision Tree Classifier: 8
+          ```       
+       <p align="center">
+           <img src="https://github.com/RimTouny/User-Forest-Cover-Type-Prediction/assets/48333870/665d2a6f-8c82-4bc2-9689-0e2e1e15a0d0"/>
+       
        + Champion Model in Wrapper Selection: Recursive
-         ![image](https://github.com/RimTouny/User-Forest-Cover-Type-Prediction/assets/48333870/c4d48228-eb99-4ec3-bebc-490180954553)
+         ```python
+            Maximum of Recursive_FE-K-Nearest Neighbors: 73.96721311475409
+            Best number of n_components Recursive_FE-K-Nearest Neighbors: 12
 
+            Maximum of Recursive_FE-Decision Tree Classifier: 76.26229508196721
+            Best number of n_components Recursive_FE-Decision Tree Classifier: 10
+          ```       
+       <p align="center">
+           <img src="https://github.com/RimTouny/User-Forest-Cover-Type-Prediction/assets/48333870/943f863c-3432-4de7-aa74-abd707e9cc0c"/>
+       </p>
 
 8. **Adding More Machine Learning Models:**
      - Implement advanced models (Random Forest, ensemble techniques) to enhance performance.
